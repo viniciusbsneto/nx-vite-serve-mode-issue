@@ -15,6 +15,9 @@
         "development": {
           "mode": "development"
         },
+        "sandbox": {
+          "mode": "sandbox"
+        },
         "production": {
           "mode": "production"
         }
@@ -29,6 +32,10 @@
       "configurations": {
         "development": {
           "buildTarget": "my-app:build:development",
+          "hmr": true
+        },
+        "sandbox": {
+          "buildTarget": "my-app:build:sandbox",
           "hmr": true
         },
         "production": {
