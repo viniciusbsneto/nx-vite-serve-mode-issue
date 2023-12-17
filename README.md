@@ -1,5 +1,5 @@
 # The issue
-@nx/vite serve target does not pull the mode option from the specified buildTarget.
+@nx/vite serve target does not pull the mode option from the specified buildTarget after Nx v17.2.x.
 
 # Expected behavior
 @nx/vite serve target pulls the mode option from the specified buildTarget.
